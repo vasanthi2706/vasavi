@@ -1,0 +1,67 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default
+{
+	background-color: #3399cc;
+    border-color: #3399cc;
+}
+.navbar-default .navbar-brand{color: #fff;}
+.navbar-brand
+{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.navbar-top-links .fa
+{
+	color: #ffffff;
+	font-size: 16px;
+}
+.nav>li>a:focus, .nav>li>a:hover
+{
+	color: #ffffff;
+	background: #1D84D6;
+}
+.sidebar .sidebar-nav.navbar-collapse
+{
+	background: #ffffff;
+}
+.nav>li>a
+{
+	color: #4c4c4c;
+	font-weight: 400;
+}
+
+.sidebar .plus
+{
+	float: right;
+}
+.sidebar .fa.plus:before
+{
+	content: "+";
+	color: #000;
+	font-weight: 500;
+}
+.sidebar .active>a>.fa.plus:before
+{
+	content: "-";
+	color: #ffffff;
+	font-weight: 500;
+}
+.form-control
+{
+	border-radius: 0;
+}
+.pad0{padding: 0;}
+h1
+{
+	font-size: 24px;
+}
+.page-header
+{
+	margin: 20px 0;
+}
+
